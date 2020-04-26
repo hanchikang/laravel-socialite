@@ -1,0 +1,29 @@
+{
+    "name": "ckhan/laravel-socialite",
+    "description": "laravel socialite",
+    "type": "library",
+    "keywords": ["laravel", "socialite"],
+    "homepage": "https://github.com/hanchikang/laravel-socialite",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ckhan",
+            "email": "chikang@vip.qq.com"
+        }
+    ],
+    "require": {
+        "laravel/socialite": "^4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "CKHan\\Socialite\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CKHan\\Socialite\\SocialiteServiceProvider"
+            ]
+        }
+    }
+}
